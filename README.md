@@ -1,0 +1,1 @@
+This is the first website that the Odin Project is actually saying to make.  Hopefully it will come out better than the others I've made up until this point.
