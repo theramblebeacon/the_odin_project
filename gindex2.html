@@ -19,7 +19,7 @@
             <li><a href="#">Images</a></li>
             <li><a href="#" role="button"><img src="images/googleapps.png"></a>
             </li>
-            <li><button class="sign-in" href="#">Sign In</button><li>
+            <li><button class="sign-in" id="js" href="#">Sign In</button><li>
         </ul>
     </div>
     <div class="main-search">
@@ -47,4 +47,20 @@
         </ul>
     </div>
   </div>
+      <script>
+        var btn = document.querySelector(".sign-in");
+          
+          btn.addEventListener("mouseover", updateBtn);
+          btn.addEventListener("mouseout", updateBtn);
+          
+          function updateBtn(){
+              
+          if ( btn.textContent === "Sign In") {
+              btn.textContent = "Whoa!";
+      }
+         else {btn.textContent =
+                  "Sign In";
+          }
+          }
+      </script>
 </body>

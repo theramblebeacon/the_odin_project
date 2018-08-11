@@ -179,6 +179,10 @@ border-top: 1px solid #dedede;
   padding: 0 12px;
   align-self: center;
 }
+.sign-in:hover {
+    padding: 0 14px 0 13px;
+    letter-spacing: 1.6;
+}
 
 .navbar-right img {
     vertical-align: sub;
